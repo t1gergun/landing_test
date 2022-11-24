@@ -1,0 +1,314 @@
+@font-face {
+    font-family: "Euclid Circular A";
+    src: url("//db.onlinewebfonts.com/t/a575313c6dc4fd00c1a9506e1c3ea4fc.eot");
+    src: url("//db.onlinewebfonts.com/t/a575313c6dc4fd00c1a9506e1c3ea4fc.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/a575313c6dc4fd00c1a9506e1c3ea4fc.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/a575313c6dc4fd00c1a9506e1c3ea4fc.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/a575313c6dc4fd00c1a9506e1c3ea4fc.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/a575313c6dc4fd00c1a9506e1c3ea4fc.svg#Euclid Circular A") format("svg");
+}
+
+body {
+    margin: 0;
+    font-family: "Euclid Circular A";
+    color: #29374E;
+}
+
+.top_block_blue {
+    background-color: #CBECFF;
+    height: 678px;
+;
+}
+
+.container {
+    padding: 24px 60px 60px;
+    margin: 0 auto;
+    height: fit-content;
+    max-width: 1100px;
+    background-repeat: no-repeat;
+    background-image: url("./images/backgroundImage.svg");
+    background-position: top right;
+    background-size: 650px;
+}
+
+.container_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 210px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    height: fit-content ;
+    padding: 22px 12px;
+    flex: 1;
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+}
+
+.card_icon {
+    font-size: 25px;
+    background: #EFF9FF;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 5px;
+    color: #0962E8;
+}
+
+.icon_big {
+    font-size: 35px;
+}
+
+.text_blue {
+    color: #0962E8;
+    line-height: 130%;
+    letter-spacing: 0.006em;
+    padding: 0 12px;
+    flex: 0;
+    box-shadow: none;
+}
+
+.without_padding {
+    padding: 2px 4px;
+}
+
+.logo {
+    margin-top: 90px;
+    font-size: 64px;
+    display: flex;
+    font-weight: 600;
+    gap: 5px;
+}
+
+.left_side_description {
+    margin-top: 15px;
+    line-height: 28.6px;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 38px;
+    text-align: start;
+    width: 380px;
+}
+
+.language {
+    display: flex;
+    justify-self: end;
+    height: fit-content;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    justify-content: end;
+}
+
+.language_selected {
+    background: #ffffff;
+    padding: 0 4px;
+    color: #0962E8;
+    border-radius: 50px;
+}
+
+.button_primary {
+    background: #0962E8;
+    color: #ffffff;
+    height: 52px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    width: 199px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.products {
+    margin: 0 auto;
+    padding: 80px 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.align_start {
+    text-align: start;
+}
+
+.order_demo_description {
+    width: 405px;
+    font-size: 14px;
+    margin-bottom: 37px;
+}
+
+.product_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.products_block {
+    height: 328px;
+    flex: 1;
+
+}
+
+.opportunities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 32px;
+    font-size: 14px;
+}
+
+.opportunities_block {
+    width: 231px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 31px 0 0;
+    text-align: start;
+    box-sizing: border-box;
+    flex: 45%;
+}
+
+.product {
+    background: #E9F6FF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 31px;
+    box-sizing: border-box;
+}
+
+.product_description {
+    margin-top: 37px;
+}
+
+.blue {
+    color: #0962E8;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1100px;
+    }
+    .button_primary {
+    }
+}
+
+@media (max-width: 1111px) {
+    .products_block {
+        flex: 100%;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+        background-size: 450px;
+        background-position: top 5% right -7%;
+    }
+    .card {
+        flex: 30%;
+    }
+
+    .text_blue {
+        flex: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+        padding: 24px 16px 24px;
+        background-position: top;
+        background-size: 700px;
+    }
+    .top_block_blue {
+        height: 1110px;
+    }
+    .left_side {
+        margin-top: 400px;
+        width: 100%;
+    }
+    .left_side_description {
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 16px;
+        margin-top: 12px;
+
+    }
+    .product {
+        padding: 0 0 0 16px;
+    }
+    .card {
+        position: relative;
+        font-size: 14px;
+        padding: 42px 12px 15px 18px;
+    }
+    .card_icon {
+        position: absolute;
+        top: -5px;
+        left: 18px;
+    }
+    .icon_big {
+        position: static;
+    }
+    .text_blue {
+        padding: 0 12px;
+        font-size: 64px;
+    }
+    .button_primary {
+        width: 100%;
+    }
+
+    .cards {
+        margin-top: 37px;
+    }
+    .product_image {
+        width: 142px;
+        height: 190px;
+    }
+    .products {
+        padding: 60px 0;
+    }
+    .products_block {
+        height: 204px;
+    }
+    .description_header {
+        font-size: 16px;
+    }
+    .description_content {
+        font-size: 13px;
+    }
+    .product_description {
+        margin-top: 25px;
+    }
+    .header {
+        font-size: 24px;
+        text-align: center;
+    }
+    .order_demo_description {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .icon_big {
+        font-size: 24px;
+    }
+
+}
+
